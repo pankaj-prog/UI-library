@@ -1,3 +1,7 @@
+@import url(./avatar/avatar.css);
+@import url(./alert/alert.css);
+@import url(./image/image.css);
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -5,9 +9,4 @@
 
 :root {
   scroll-behavior: smooth;
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 1.6rem;
 }
