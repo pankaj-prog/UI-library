@@ -26,25 +26,25 @@
 }
 
 .alert-error {
-  background-color: rgb(247, 229, 229);
-  color: rgb(211, 13, 13);
-  border: thin solid red;
+  background-color: var(--error-color-bg);
+  color: var(--error-color);
+  border: thin solid var(--error-color);
 }
 
 .alert-warning {
-  background-color: rgb(250, 250, 212);
-  color: rgb(134, 126, 1);
-  border: thin solid rgb(134, 126, 1);
+  background-color: var(--warning-color-bg);
+  color: var(--warning-color);
+  border: thin solid var(--warning-color);
 }
 
 .alert-success {
-  color: green;
-  background-color: rgb(220, 248, 220);
-  border: thin solid green;
+  color: var(--success-color);
+  background-color: var(--success-color-bg);
+  border: thin solid var(--success-color);
 }
 
 .alert-info {
-  color: blue;
-  background-color: rgb(232, 232, 255);
-  border: thin solid blue;
+  color: var(--info-color);
+  background-color: var(--info-color-bg);
+  border: thin solid var(--info-color);
 }
