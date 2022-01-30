@@ -1,0 +1,32 @@
+.avatar {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.avatar-round {
+  border-radius: 50%;
+}
+
+.avatar-square {
+  border-radius: 0.5rem;
+}
+
+.avatar-lg {
+  width: 6rem;
+  height: 6rem;
+}
+
+.avatar-md {
+  width: 5rem;
+  height: 5rem;
+}
+
+.avatar-sm {
+  width: 4rem;
+  height: 4rem;
+}
+
+.avatar-xs {
+  width: 3rem;
+  height: 3rem;
+}
