@@ -4,7 +4,7 @@
 }
 
 .avatar-round {
-  border: 50%;
+  border-radius: 50%;
 }
 
 .avatar-square {
