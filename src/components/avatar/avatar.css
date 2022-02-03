@@ -1,13 +1,12 @@
 .avatar {
   display: inline-block;
-  overflow: hidden;
 }
 
-.avatar-round {
+.avatar-round img {
   border-radius: 50%;
 }
 
-.avatar-square {
+.avatar-square img {
   border-radius: 0.5rem;
 }
 

@@ -4,7 +4,7 @@
   padding: 0.5em;
   display: flex;
   align-items: center;
-  margin: 0.5em;
+  margin: 0.5rem;
 }
 
 .alert-message {
@@ -26,25 +26,25 @@
 }
 
 .alert-error {
-  background-color: var(--error-color-bg);
-  color: var(--error-color);
-  border: thin solid var(--error-color);
+  background-color: var(--error-bg);
+  color: var(--error);
+  border: thin solid var(--error);
 }
 
 .alert-warning {
-  background-color: var(--warning-color-bg);
-  color: var(--warning-color);
-  border: thin solid var(--warning-color);
+  background-color: var(--warning-bg);
+  color: var(--warning);
+  border: thin solid var(--warning);
 }
 
 .alert-success {
-  color: var(--success-color);
-  background-color: var(--success-color-bg);
-  border: thin solid var(--success-color);
+  color: var(--success);
+  background-color: var(--success-bg);
+  border: thin solid var(--success);
 }
 
 .alert-info {
-  color: var(--info-color);
-  background-color: var(--info-color-bg);
-  border: thin solid var(--info-color);
+  color: var(--info);
+  background-color: var(--info-bg);
+  border: thin solid var(--info);
 }
