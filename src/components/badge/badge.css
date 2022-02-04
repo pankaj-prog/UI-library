@@ -10,8 +10,8 @@
 }
 
 .badge {
-  background: red;
-  color: white;
+  background: var(--RED);
+  color: var(--WHITE);
   position: absolute;
   border-radius: 50%;
   display: flex;
@@ -29,6 +29,7 @@
 
 .badge-icon-container {
   padding: 0.5em;
+  font-size: 1.4rem;
   display: inline-flex;
   justify-content: center;
   align-content: center;
@@ -36,11 +37,11 @@
 }
 
 .badge-icon-container .badge {
-  font-size: 0.8em;
-  height: 1.5em;
-  width: 1.5em;
-  top: -0.5em;
-  right: -0.5em;
+  font-size: 0.6em;
+  height: 1.3em;
+  width: 1.3em;
+  top: -0.1em;
+  right: -0.1em;
 }
 
 .badge-avatar-container {
@@ -49,7 +50,7 @@
 }
 
 .badge-avatar-container .badge {
-  border: 3px solid white;
+  border: 3px solid var(--WHITE);
   top: 0;
   right: 0;
   height: 25%;
