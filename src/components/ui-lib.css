@@ -1,4 +1,6 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 @import url(./colors.css);
+@import url(./badge/badge.css);
 @import url(./avatar/avatar.css);
 @import url(./alert/alert.css);
 @import url(./image/image.css);

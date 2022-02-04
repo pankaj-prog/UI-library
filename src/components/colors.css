@@ -4,6 +4,7 @@
   --WHITE: #ffffff;
   --OFFWHITE: #f5f5f5;
   --LIGHT-GRAY: #e5e5e5;
+  --RED: #ba2026;
   --CTA-COLOR: #3e98f1;
   --ERROR: rgb(211, 13, 13);
   --ERROR-BG: rgb(247, 229, 229);
@@ -15,5 +16,5 @@
   --success-BG: rgb(220, 248, 220);
   --STATUS-ACTIVE: rgb(11, 196, 11);
   --STATUS-INACTIVE: red;
-  --STATU-IDLE: rgb(110, 109, 109);
+  --STATUS-IDLE: rgb(110, 109, 109);
 }
