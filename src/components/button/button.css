@@ -1,0 +1,60 @@
+.btn {
+  border: none;
+  cursor: pointer;
+  padding: 0.5em 0.8em;
+  background: transparent;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+/* Outline Buttons */
+.btn-outline-primary {
+  border: 2px groove var(--BLACK);
+  color: var(--BLACK);
+}
+
+.btn-outline-secondary {
+  border: 2px groove var(--WHITE);
+  color: var(--WHITE);
+}
+
+/* Solid buttons */
+.btn-solid-primary {
+  background-color: var(--BLACK);
+  color: var(--WHITE);
+}
+
+.btn-solid-secondary {
+  background-color: var(--WHITE);
+  color: var(--BLACK);
+}
+
+/* Pill Shaped Button */
+.btn-pill {
+  border-radius: 1em /50%;
+}
+
+/* Rounded Corner Buttons  */
+.btn-rc {
+  border-radius: 6px;
+}
+
+/* Link Buttons */
+.btn-link-primary {
+  padding: 0px 1px 0px 1px;
+  border-bottom: 2px solid var(--BLACK);
+  color: var(--BLACK);
+}
+
+.btn-link-secondary {
+  padding: 0px 1px 0px 1px;
+  border-bottom: 2px solid var(--WHITE);
+  color: var(--WHITE);
+}
+
+/* Button Sizes */
+.btn-lg {
+  font-size: 1.5rem;
+}

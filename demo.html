@@ -7,96 +7,120 @@
     <link rel="stylesheet" href="./style.css" />
     <title>Components Demo</title>
   </head>
-  <body style="padding: 50px">
-    <h1>Alert</h1>
-    <h2>Basic Alerts</h2>
-    <div class="alert alert-error">
-      <i class="fas fa-exclamation-circle alert-icon"></i>
-      <p class="alert-message">This is an error alert — check it out!</p>
-    </div>
-    <div class="alert alert-warning">
-      <i class="fas fa-exclamation-triangle alert-icon"></i>
+  <body>
+    <main style="max-width: 1100px; margin: 50px auto">
+      <h1>Alert</h1>
+      <h2>Basic Alerts</h2>
+      <div class="alert alert-error">
+        <i class="fas fa-exclamation-circle alert-icon"></i>
+        <p class="alert-message">This is an error alert — check it out!</p>
+      </div>
+      <div class="alert alert-warning">
+        <i class="fas fa-exclamation-triangle alert-icon"></i>
 
-      <p class="alert-message">This is a warning alert — check it out!</p>
-    </div>
-    <div class="alert alert-success">
-      <i class="far fa-check-circle alert-icon"></i>
-      <p class="alert-message">This is a success alert — check it out!</p>
-    </div>
-    <div class="alert alert-info">
-      <i class="fas fa-info-circle alert-icon"></i>
-      <p class="alert-message">This is an info alert — check it out!</p>
-    </div>
+        <p class="alert-message">This is a warning alert — check it out!</p>
+      </div>
+      <div class="alert alert-success">
+        <i class="far fa-check-circle alert-icon"></i>
+        <p class="alert-message">This is a success alert — check it out!</p>
+      </div>
+      <div class="alert alert-info">
+        <i class="fas fa-info-circle alert-icon"></i>
+        <p class="alert-message">This is an info alert — check it out!</p>
+      </div>
 
-    <h2>Alert with close button</h2>
-    <div class="alert alert-error">
-      <i class="fas fa-exclamation-circle alert-icon"></i>
-      <p class="alert-message">This is an error alert — check it out!</p>
-      <button class="alert-close-button">
-        <i class="far fa-times-circle"></i>
+      <h2>Alert with close button</h2>
+      <div class="alert alert-error">
+        <i class="fas fa-exclamation-circle alert-icon"></i>
+        <p class="alert-message">This is an error alert — check it out!</p>
+        <button class="alert-close-button">
+          <i class="far fa-times-circle"></i>
+        </button>
+      </div>
+      <hr />
+      <h1>Avatar</h1>
+      <h2>Round avatar</h2>
+      <div class="avatar avatar-lg avatar-round">
+        <img
+          class="responsive-img"
+          src="./src/images/avatar-default.png"
+          alt="avatar"
+        />
+      </div>
+      <div class="avatar avatar-md avatar-round">
+        <img
+          class="responsive-img"
+          src="./src/images/avatar-default.png"
+          alt="avatar"
+        />
+      </div>
+      <div class="avatar avatar-sm avatar-round">
+        <img
+          class="responsive-img"
+          src="./src/images/avatar-default.png"
+          alt="avatar"
+        />
+      </div>
+      <div class="avatar avatar-xs avatar-round">
+        <img
+          class="responsive-img"
+          src="./src/images/avatar-default.png"
+          alt="avatar"
+        />
+      </div>
+
+      <h2>squared avatar</h2>
+      <div class="avatar avatar-lg avatar-square">
+        <img
+          class="responsive-img"
+          src="./src/images/avatar-default.png"
+          alt="avatar"
+        />
+      </div>
+      <div class="avatar avatar-md avatar-square">
+        <img
+          class="responsive-img"
+          src="./src/images/avatar-default.png"
+          alt="avatar"
+        />
+      </div>
+      <div class="avatar avatar-sm avatar-square">
+        <img
+          class="responsive-img"
+          src="./src/images/avatar-default.png"
+          alt="avatar"
+        />
+      </div>
+      <div class="avatar avatar-xs avatar-square">
+        <img
+          class="responsive-img"
+          src="./src/images/avatar-default.png"
+          alt="avatar"
+        />
+      </div>
+      <hr />
+      <h1>Button</h1>
+      <h2>Primary Buttons</h2>
+      <button class="btn btn-solid-primary btn-rc">Button</button>
+      <button class="btn btn-outline-primary btn-pill">Button</button>
+      <button class="btn btn-solid-primary">Button</button>
+      <button class="btn btn-outline-primary">Button</button>
+      <h2>Link button</h2>
+      <button class="btn btn-link-primary">Button</button>
+      <button class="btn btn-link-secondary">Button</button>
+      <h2>Button with Icons</h2>
+      <button class="btn btn-solid-primary">
+        <i class="far fa-trash-alt"></i>
+        Delete
       </button>
-    </div>
-    <hr />
-    <h1>Avatar</h1>
-    <h2>Round avatar</h2>
-    <div class="avatar avatar-lg avatar-round">
-      <img
-        class="responsive-img"
-        src="./src/images/avatar-default.png"
-        alt="avatar"
-      />
-    </div>
-    <div class="avatar avatar-md avatar-round">
-      <img
-        class="responsive-img"
-        src="./src/images/avatar-default.png"
-        alt="avatar"
-      />
-    </div>
-    <div class="avatar avatar-sm avatar-round">
-      <img
-        class="responsive-img"
-        src="./src/images/avatar-default.png"
-        alt="avatar"
-      />
-    </div>
-    <div class="avatar avatar-xs avatar-round">
-      <img
-        class="responsive-img"
-        src="./src/images/avatar-default.png"
-        alt="avatar"
-      />
-    </div>
-
-    <h2>squared avatar</h2>
-    <div class="avatar avatar-lg avatar-square">
-      <img
-        class="responsive-img"
-        src="./src/images/avatar-default.png"
-        alt="avatar"
-      />
-    </div>
-    <div class="avatar avatar-md avatar-square">
-      <img
-        class="responsive-img"
-        src="./src/images/avatar-default.png"
-        alt="avatar"
-      />
-    </div>
-    <div class="avatar avatar-sm avatar-square">
-      <img
-        class="responsive-img"
-        src="./src/images/avatar-default.png"
-        alt="avatar"
-      />
-    </div>
-    <div class="avatar avatar-xs avatar-square">
-      <img
-        class="responsive-img"
-        src="./src/images/avatar-default.png"
-        alt="avatar"
-      />
-    </div>
-    <hr />
+      <button class="btn btn-outline-primary btn-pill">
+        <i class="far fa-address-book"></i>
+        Contact
+      </button>
+      <h2>Floating button</h2>
+      <button class="btn btn-solid-primary btn-lg btn-rc">
+        <i class="far fa-trash-alt"></i>
+      </button>
+    </main>
   </body>
 </html>

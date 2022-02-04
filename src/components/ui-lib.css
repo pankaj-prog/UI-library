@@ -1,6 +1,8 @@
+@import url(./colors.css);
 @import url(./avatar/avatar.css);
 @import url(./alert/alert.css);
 @import url(./image/image.css);
+@import url(./button/button.css);
 
 * {
   margin: 0;
