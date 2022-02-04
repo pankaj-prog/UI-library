@@ -26,25 +26,25 @@
 }
 
 .alert-error {
-  background-color: var(--error-bg);
-  color: var(--error);
-  border: thin solid var(--error);
+  background-color: var(--ERROR-BG);
+  color: var(--ERROR);
+  border: thin solid var(--ERROR);
 }
 
 .alert-warning {
-  background-color: var(--warning-bg);
-  color: var(--warning);
-  border: thin solid var(--warning);
+  background-color: var(--WARNING-BG);
+  color: var(--WARNING);
+  border: thin solid var(--WARNING);
 }
 
 .alert-success {
-  color: var(--success);
-  background-color: var(--success-bg);
-  border: thin solid var(--success);
+  color: var(--SUCCESS);
+  background-color: var(--SUCCESS-BG);
+  border: thin solid var(--SUCCESS);
 }
 
 .alert-info {
-  color: var(--info);
-  background-color: var(--info-bg);
-  border: thin solid var(--info);
+  color: var(--INFO);
+  background-color: var(--INFO-BG);
+  border: thin solid var(--INFO);
 }

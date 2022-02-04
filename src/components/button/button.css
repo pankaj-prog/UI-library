@@ -11,24 +11,24 @@
 
 /* Outline Buttons */
 .btn-outline-primary {
-  border: 2px groove var(--black);
-  color: var(--black);
+  border: 2px groove var(--BLACK);
+  color: var(--BLACK);
 }
 
 .btn-outline-secondary {
-  border: 2px groove var(--white);
-  color: var(--white);
+  border: 2px groove var(--WHITE);
+  color: var(--WHITE);
 }
 
 /* Solid buttons */
 .btn-solid-primary {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--BLACK);
+  color: var(--WHITE);
 }
 
 .btn-solid-secondary {
-  background-color: var(--white);
-  color: var(--black);
+  background-color: var(--WHITE);
+  color: var(--BLACK);
 }
 
 /* Pill Shaped Button */
@@ -44,14 +44,14 @@
 /* Link Buttons */
 .btn-link-primary {
   padding: 0px 1px 0px 1px;
-  border-bottom: 2px solid var(--black);
-  color: var(--black);
+  border-bottom: 2px solid var(--BLACK);
+  color: var(--BLACK);
 }
 
 .btn-link-secondary {
   padding: 0px 1px 0px 1px;
-  border-bottom: 2px solid var(--white);
-  color: var(--white);
+  border-bottom: 2px solid var(--WHITE);
+  color: var(--WHITE);
 }
 
 /* Button Sizes */
