@@ -1,15 +1,15 @@
 .card {
   border-radius: 4px;
-  box-shadow: 2px 2px 4px -4px black;
+  box-shadow: 2px 2px 4px -4px var(--BLACK);
   width: 14rem;
-  border: 1px solid #b0bec5;
+  border: 1px solid var(--GRAY);
   position: relative;
 }
 
 .card-hz {
-  border: 1px solid #b0bec5;
+  border: 1px solid var(--GRAY);
   border-radius: 4px;
-  box-shadow: 4px 4px 6px -6px black;
+  box-shadow: 4px 4px 6px -6px var(--BLACK);
   display: flex;
   align-items: center;
   height: 10rem;
@@ -17,7 +17,7 @@
 }
 
 .card-text {
-  border: 1px solid #b0bec5;
+  border: 1px solid var(--GRAY);
   border-radius: 4px;
   max-width: 24rem;
 }
@@ -51,7 +51,7 @@
 }
 
 .dismiss:hover {
-  background: #b0bec5;
+  background: var(--GRAY);
 }
 
 .card-hz img {
@@ -80,7 +80,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: var(--BLACK-OVERLAY);
   display: flex;
   align-items: center;
   justify-content: center;
