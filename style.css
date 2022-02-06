@@ -80,9 +80,3 @@ h2 ~ .badge-text-container {
   color: var(--OFFWHITE);
   padding: 0 0.5em;
 }
-
-.cards-container {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-}
