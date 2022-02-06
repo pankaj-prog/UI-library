@@ -1,5 +1,6 @@
 :root {
   --BLACK: #1f1f1f;
+  --BLACK-OVERLAY: rgba(0, 0, 0, 0.5);
   --GRAY: rgb(134, 134, 134);
   --WHITE: #ffffff;
   --OFFWHITE: #f5f5f5;
