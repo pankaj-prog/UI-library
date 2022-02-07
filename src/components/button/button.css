@@ -24,9 +24,11 @@
 .btn-solid-primary {
   background-color: var(--BLACK);
   color: var(--WHITE);
+  border: 2px groove var(--BLACK);
 }
 
 .btn-solid-secondary {
+  border: 2px groove var(--WHITE);
   background-color: var(--WHITE);
   color: var(--BLACK);
 }
