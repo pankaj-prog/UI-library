@@ -1,7 +1,6 @@
 .input {
-  flex-grow: 1;
-  padding: 4px;
-  margin-left: 6px;
+  width: 100%;
+  padding: 6px;
   border: none;
   border-bottom: 1px solid var(--GRAY);
   background: transparent;
@@ -12,23 +11,23 @@
 .input:focus {
   outline: none;
   background: var(--OFFWHITE);
-  border: none;
 }
 
 .label {
-  display: flex;
-  width: 100%;
-  border-radius: 6px;
-  background: var(--LIGHT-GRAY);
-  padding: 10px;
+  display: block;
 }
 
-.label-error {
-  background: var(--ERROR-BG);
+.input-error {
+  border: 1px solid var(--ERROR);
+}
+.input-error:focus {
   border: 1px solid var(--ERROR);
 }
 
-.label-success {
-  background: var(--SUCCESS-BG);
+.input-success {
+  border: 1px solid var(--SUCCESS);
+}
+
+.input-success:focus {
   border: 1px solid var(--SUCCESS);
 }
