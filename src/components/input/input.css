@@ -1,0 +1,33 @@
+.input {
+  width: 100%;
+  padding: 6px;
+  border: none;
+  border-bottom: 1px solid var(--GRAY);
+  background: transparent;
+  color: var(--BLACK);
+  border-radius: 4px;
+}
+
+.input:focus {
+  outline: none;
+  background: var(--OFFWHITE);
+}
+
+.label {
+  display: block;
+}
+
+.input-error {
+  border: 1px solid var(--ERROR);
+}
+.input-error:focus {
+  border: 1px solid var(--ERROR);
+}
+
+.input-success {
+  border: 1px solid var(--SUCCESS);
+}
+
+.input-success:focus {
+  border: 1px solid var(--SUCCESS);
+}

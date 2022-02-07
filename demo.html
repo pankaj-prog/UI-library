@@ -8,7 +8,10 @@
     <title>Components Demo</title>
   </head>
   <body>
-    <main style="max-width: 1100px; margin: 50px auto">
+    <main style="max-width: 1200px; margin: 50px auto; padding: 10vw">
+      <a href="#img">Image</a>
+      <a href="#card">Cards</a>
+      <a href="#input">Input</a>
       <h1>Alert</h1>
       <h2>Basic Alerts</h2>
       <div class="alert alert-error">
@@ -43,28 +46,28 @@
       <div class="avatar avatar-lg avatar-round">
         <img
           class="responsive-img"
-          src="./src/images/avatar-default.png"
+          src="./src/assets/avatar-default.png"
           alt="avatar"
         />
       </div>
       <div class="avatar avatar-md avatar-round">
         <img
           class="responsive-img"
-          src="./src/images/avatar-default.png"
+          src="./src/assets/avatar-default.png"
           alt="avatar"
         />
       </div>
       <div class="avatar avatar-sm avatar-round">
         <img
           class="responsive-img"
-          src="./src/images/avatar-default.png"
+          src="./src/assets/avatar-default.png"
           alt="avatar"
         />
       </div>
       <div class="avatar avatar-xs avatar-round">
         <img
           class="responsive-img"
-          src="./src/images/avatar-default.png"
+          src="./src/assets/avatar-default.png"
           alt="avatar"
         />
       </div>
@@ -73,28 +76,28 @@
       <div class="avatar avatar-lg avatar-square">
         <img
           class="responsive-img"
-          src="./src/images/avatar-default.png"
+          src="./src/assets/avatar-default.png"
           alt="avatar"
         />
       </div>
       <div class="avatar avatar-md avatar-square">
         <img
           class="responsive-img"
-          src="./src/images/avatar-default.png"
+          src="./src/assets/avatar-default.png"
           alt="avatar"
         />
       </div>
       <div class="avatar avatar-sm avatar-square">
         <img
           class="responsive-img"
-          src="./src/images/avatar-default.png"
+          src="./src/assets/avatar-default.png"
           alt="avatar"
         />
       </div>
       <div class="avatar avatar-xs avatar-square">
         <img
           class="responsive-img"
-          src="./src/images/avatar-default.png"
+          src="./src/assets/avatar-default.png"
           alt="avatar"
         />
       </div>
@@ -144,7 +147,7 @@
       >
         <img
           class="responsive-img"
-          src="./src/images/avatar-default.png"
+          src="./src/assets/avatar-default.png"
           alt="avatar"
         />
         <span class="badge"></span>
@@ -154,7 +157,7 @@
       >
         <img
           class="responsive-img"
-          src="./src/images/avatar-default.png"
+          src="./src/assets/avatar-default.png"
           alt="avatar"
         />
         <span class="badge badge-idle"></span>
@@ -164,13 +167,13 @@
       >
         <img
           class="responsive-img"
-          src="./src/images/avatar-default.png"
+          src="./src/assets/avatar-default.png"
           alt="avatar"
         />
         <span class="badge badge-active"></span>
       </div>
       <hr />
-      <h1>Card</h1>
+      <h1 id="card">Card</h1>
       <h2>card with dismiss</h2>
       <div class="card">
         <img
@@ -261,6 +264,49 @@
           </div>
         </div>
       </div>
+      <h1 id="img">Images</h1>
+      <h2>Responsive Image</h2>
+      <div class="img-wrapper">
+        <img src="./src/assets/desktop.webp" alt="" class="responsive-img" />
+      </div>
+      <h2>Round Image</h2>
+      <div class="img-wrapper">
+        <img src="./src/assets/desktop.webp" alt="" class="round-img" />
+      </div>
+      <h1 id="input">Input</h1>
+      <h2>Simple Input</h2>
+      <label class="label">
+        Name
+        <input class="input" type="text" placeholder="Enter your name..." />
+      </label>
+      <br />
+      <label class="label">
+        Last Name
+        <input
+          class="input"
+          type="text"
+          placeholder="Enter your last name..."
+        />
+      </label>
+
+      <h2>Input with validation</h2>
+      <label class="label">
+        Name
+        <input
+          class="input input-error"
+          type="text"
+          placeholder="Enter your name..."
+        />
+      </label>
+      <br />
+      <label class="label">
+        Last Name
+        <input
+          class="input input-success"
+          type="text"
+          placeholder="Enter your last name..."
+        />
+      </label>
     </main>
   </body>
 </html>

@@ -6,6 +6,7 @@
 @import url(./image/image.css);
 @import url(./button/button.css);
 @import url(./cards/cards.css);
+@import url(./input/input.css);
 
 * {
   margin: 0;
