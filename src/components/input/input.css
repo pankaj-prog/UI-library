@@ -1,0 +1,34 @@
+.input {
+  flex-grow: 1;
+  padding: 4px;
+  margin-left: 6px;
+  border: none;
+  border-bottom: 1px solid var(--GRAY);
+  background: transparent;
+  color: var(--BLACK);
+  border-radius: 4px;
+}
+
+.input:focus {
+  outline: none;
+  background: var(--OFFWHITE);
+  border: none;
+}
+
+.label {
+  display: flex;
+  width: 100%;
+  border-radius: 6px;
+  background: var(--LIGHT-GRAY);
+  padding: 10px;
+}
+
+.label-error {
+  background: var(--ERROR-BG);
+  border: 1px solid var(--ERROR);
+}
+
+.label-success {
+  background: var(--SUCCESS-BG);
+  border: 1px solid var(--SUCCESS);
+}

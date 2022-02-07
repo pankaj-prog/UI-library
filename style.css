@@ -80,3 +80,7 @@ h2 ~ .badge-text-container {
   color: var(--OFFWHITE);
   padding: 0 0.5em;
 }
+
+.img-wrapper {
+  width: 50vw;
+}
