@@ -4,18 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <!-- <link rel="stylesheet" href="../../prism/prism.css" /> -->
     <link rel="stylesheet" href="../ui-lib.css" />
     <link rel="stylesheet" href="../../../style.css" />
-    <title>UI - Avatar</title>
+    <title>Adaptive UI</title>
   </head>
   <body>
     <div class="site">
       <header class="site-header">
-        <div class="site-name">UI Library</div>
+        <div class="site-header-title">Adaptive UI</div>
+        <div class="site-header-ctas">
+          <a href="#">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
       </header>
       <nav class="site-nav">
-        <ul>
+        <ul class="hz-nav primary-nav">
+          <li><a href="#">Usage</a></li>
+          <li><a href="#">Typography</a></li>
+          <li><a href="#">Colors</a></li>
+        </ul>
+        <ul class="hz-nav sec-nav">
           <li class="site-nav-link">
             <a href="/src/components/avatar/avatar.html"> Avatar</a>
           </li>
@@ -30,12 +46,152 @@
         </ul>
       </nav>
       <main class="site-content">
-        <h1 class="component-name">Avatar</h1>
-        <p class="component-descriptiom">
-          The avatar component is typically used to display circular user
-          profile pictures.
-        </p>
+        <section class="documentation">
+          <h1 class="component-name">Avatar</h1>
+          <p class="component-descriptiom">
+            The avatar component can be used to represent people or objects.<br />
+            You need to include <span class="highlighted">avatar</span> class to
+            use avatars. It is available in 4 sizes and you can use the
+            following classes in your avatar for different sizes:
+          </p>
+
+          <ul class="component-type-list">
+            <li>
+              <span class="highlighted">avatar-lg</span> : Large Avatar (6rem :
+              6rem)
+            </li>
+            <li>
+              <span class="highlighted">avatar-md</span> : Medium Avatar (5rem :
+              5rem)
+            </li>
+            <li>
+              <span class="highlighted">avatar-sm</span> : Small Avatar (4rem :
+              4rem)
+            </li>
+            <li>
+              <span class="highlighted">avatar-xs</span> : Extra-small Avatar
+              (3rem : 3rem)
+            </li>
+          </ul>
+
+          Also there are two types of avatar that you can use:
+          <h2 class="component-type-name">1. Round Avatar</h2>
+          <p class="component-description">
+            To use the rounded avatars include the class
+            <span class="highlighted">avatar-round</span> along with class
+            <span class="highlighted">avatar</span> and a class for the size of
+            avatar.
+          </p>
+          <section class="component-example-wrapper">
+            <div class="avatar avatar-lg avatar-round">
+              <img
+                class="responsive-img"
+                src="../../assets/avatar-default.png"
+                alt="avatar"
+              />
+            </div>
+            <div class="avatar avatar-md avatar-round">
+              <img
+                class="responsive-img"
+                src="../../assets/avatar-default.png"
+                alt="avatar"
+              />
+            </div>
+            <div class="avatar avatar-sm avatar-round">
+              <img
+                class="responsive-img"
+                src="../../assets/avatar-default.png"
+                alt="avatar"
+              />
+            </div>
+            <div class="avatar avatar-xs avatar-round">
+              <img
+                class="responsive-img"
+                src="../../assets/avatar-default.png"
+                alt="avatar"
+              />
+            </div>
+          </section>
+          <section class="component-code-wrapper">
+            <script type="text/plain" class="line-numbers language-markup">
+              <!-- Large Round Avatar -->
+              <div class="avatar avatar-lg avatar-round">
+                  <img
+                    class="responsive-img"
+                    src="...."
+                    alt="...."
+                  />
+              </div>
+              <!-- Medium Round Avatar -->
+              <div class="avatar avatar-md avatar-round">
+                  <img
+                    class="responsive-img"
+                    src="...."
+                    alt="...."
+                  />
+              </div>
+            </script>
+          </section>
+          <h2 class="component-type-name">2. Squared Avatar</h2>
+          <p class="component-description">
+            To use the squared avatars include the class
+            <span class="highlighted">avatar-square</span> along with class
+            <span class="highlighted">avatar</span> and a class for the size of
+            avatar.
+          </p>
+          <section class="component-example-wrapper">
+            <div class="avatar avatar-lg avatar-square">
+              <img
+                class="responsive-img"
+                src="../../assets/avatar-default.png"
+                alt="avatar"
+              />
+            </div>
+            <div class="avatar avatar-md avatar-square">
+              <img
+                class="responsive-img"
+                src="../../assets/avatar-default.png"
+                alt="avatar"
+              />
+            </div>
+            <div class="avatar avatar-sm avatar-square">
+              <img
+                class="responsive-img"
+                src="../../assets/avatar-default.png"
+                alt="avatar"
+              />
+            </div>
+            <div class="avatar avatar-xs avatar-square">
+              <img
+                class="responsive-img"
+                src="../../assets/avatar-default.png"
+                alt="avatar"
+              />
+            </div>
+          </section>
+          <section class="component-code-wrapper">
+            <script type="text/plain" class="line-numbers language-markup">
+              <!-- Large Squared Avatar -->
+              <div class="avatar avatar-lg avatar-square">
+                  <img
+                    class="responsive-img"
+                    src="...."
+                    alt="...."
+                  />
+              </div>
+              <!-- Medium Squared Avatar -->
+              <div class="avatar avatar-md avatar-square">
+                  <img
+                    class="responsive-img"
+                    src="...."
+                    alt="...."
+                  />
+              </div>
+            </script>
+          </section>
+        </section>
       </main>
     </div>
+    <script src="../../prism/prism.js"></script>
   </body>
 </html>
