@@ -54,6 +54,304 @@
           </li>
         </ul>
       </nav>
+      <main class="site-content">
+        <h1 class="component-name">Cards</h1>
+        <p class="component-description">
+          Card Component is used to display information for a single object
+          through an image, map, or other media content, as well as text,
+          allowing relevant quick actions to be triggered such as sharing,
+          liking, bookmarking, etc. <br />
+          Cards are available in multiple variants and options.
+        </p>
+        <ul class="component-type-list">
+          <li>
+            <button class="btn btn-link-primary">
+              <a href="#card-with-badge">Card with badge</a>
+            </button>
+          </li>
+          <li>
+            <button class="btn btn-link-primary">
+              <a href="#card-with-dismiss">Card with dismiss</a>
+            </button>
+          </li>
+          <li>
+            <button class="btn btn-link-primary">
+              <a href="#card-with-text-overlay">Card with text overlay</a>
+            </button>
+          </li>
+          <li>
+            <button class="btn btn-link-primary">
+              <a href="#card-hz">Horizontal card</a>
+            </button>
+          </li>
+          <li>
+            <button class="btn btn-link-primary">
+              <a href="#card-text">Text only card</a>
+            </button>
+          </li>
+          <li>
+            <button class="btn btn-link-primary">
+              <a href="#card-with-shadow">Card with shadow</a>
+            </button>
+          </li>
+        </ul>
+
+        <h2 id="card-with-badge" class="component-type-name">
+          1. Card with badge
+        </h2>
+        <section class="component-example-wrapper">
+          <div class="card badge-container">
+            <img
+              class="responsive-img"
+              src="http://www.atics.sr/wp-content/themes/aaika/assets/images/default.png"
+            />
+            <div class="card-details">
+              <h1 class="card-title">Puma Sneaker</h1>
+              <p class="card-desc">lorem hkdbdf djbs</p>
+              <div class="price">$55</div>
+              <div class="card-buttons">
+                <button class="btn btn-solid-primary">add to cart</button>
+                <button class="btn btn-outline-primary">Buy Now</button>
+              </div>
+            </div>
+            <span class="card-badge"> New </span>
+          </div>
+        </section>
+        <section class="component-code-wrapper">
+          <script type="text/plain" class="line-numbers language-markup">
+            <div class="card badge-container">
+              <img
+                class="responsive-img"
+                src="http://www.atics.sr/wp-content/themes/aaika/assets/images/default.png"
+              />
+              <div class="card-details">
+              	<h1 class="card-title">Puma Sneaker</h1>
+                <p class="card-desc">lorem hkdbdf djbs</p>
+                <div class="price">$55</div>
+                <div class="card-buttons">
+                  <button class="btn btn-solid-primary">add to cart</button>
+                  <button class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+              <span class="card-badge"> New </span>
+            </div>
+          </script>
+        </section>
+
+        <h2 id="card-with-dismiss" class="component-type-name">
+          2. Card with dismiss
+        </h2>
+        <section class="component-example-wrapper">
+          <div class="card">
+            <img
+              class="responsive-img"
+              src="http://www.atics.sr/wp-content/themes/aaika/assets/images/default.png"
+            />
+            <div class="card-details">
+              <h1 class="card-title">Puma Sneaker</h1>
+              <p class="card-desc">lorem hkdbdf djbs</p>
+              <div class="price">$55</div>
+              <div class="card-buttons">
+                <button class="btn btn-solid-primary">add to cart</button>
+                <button class="btn btn-outline-primary">Buy Now</button>
+              </div>
+            </div>
+            <div class="card-ctas">
+              <button class="icon-container card-dismiss">
+                <i class="far fa-times-circle"></i>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="component-code-wrapper">
+          <script type="text/plain" class="line-numbers language-markup">
+            <div class="card">
+              <img
+                class="responsive-img"
+                src="http://www.atics.sr/wp-content/themes/aaika/assets/images/default.png"
+              />
+            	<div class="card-details">
+              	<h1 class="card-title">Puma Sneaker</h1>
+              	<p class="card-desc">lorem hkdbdf djbs</p>
+              	<div class="price">$55</div>
+              	<div class="card-buttons">
+                	<button class="btn btn-solid-primary">add to cart</button>
+                	<button class="btn btn-outline-primary">Buy Now</button>
+              	</div>
+            	</div>
+              <div class="card-ctas">
+                <button class="icon-container card-dismiss">
+                  <i class="far fa-times-circle"></i>
+                </button>
+              </div>
+            </div>
+          </script>
+        </section>
+
+        <h2 id="card-with-text-overlay" class="component-type-name">
+          3. Card with text overlay
+        </h2>
+        <section class="component-example-wrapper">
+          <div class="card">
+            <img
+              class="responsive-img"
+              src="http://www.atics.sr/wp-content/themes/aaika/assets/images/default.png"
+            />
+            <div class="card-details">
+              <h1 class="card-title">Puma Sneaker</h1>
+              <p class="card-desc">lorem hkdbdf djbs</p>
+              <div class="price">$55</div>
+              <div class="card-buttons">
+                <button class="btn btn-solid-primary">add to cart</button>
+                <button class="btn btn-outline-primary">Buy Now</button>
+              </div>
+            </div>
+            <div class="card-overlay">Sold Out</div>
+          </div>
+        </section>
+        <section class="component-code-wrapper">
+          <script type="text/plain" class="line-numbers language-markup">
+            <div class="card">
+                <img
+                  class="responsive-img"
+                  src="http://www.atics.sr/wp-content/themes/aaika/assets/images/default.png"
+                />
+                <div class="card-details">
+                  <h1 class="card-title">Puma Sneaker</h1>
+                  <p class="card-desc">lorem hkdbdf djbs</p>
+                  <div class="price">$55</div>
+                  <div class="card-buttons">
+                    <button class="btn btn-solid-primary">add to cart</button>
+                    <button class="btn btn-outline-primary">Buy Now</button>
+                  </div>
+                </div>
+                <div class="card-overlay">Sold Out</div>
+              </div>
+          </script>
+        </section>
+
+        <h2 id="card-hz" class="component-type-name">4. Horizontal card</h2>
+        <section class="component-example-wrapper">
+          <div class="card-hz">
+            <img
+              class="responsive-img"
+              src="http://www.atics.sr/wp-content/themes/aaika/assets/images/default.png"
+            />
+            <div class="card-details">
+              <h1 class="card-title">Puma Sneaker</h1>
+              <p class="card-desc">lorem hkdbdf djbs</p>
+              <div class="price">$55</div>
+              <div class="card-buttons">
+                <button class="btn btn-solid-primary">add to cart</button>
+                <button class="btn btn-outline-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="component-code-wrapper">
+          <script type="text/plain" class="line-numbers language-markup">
+            <div class="card-hz">
+                <img
+                  class="responsive-img"
+                  src="http://www.atics.sr/wp-content/themes/aaika/assets/images/default.png"
+                />
+                <div class="card-details">
+                  <h1 class="card-title">Puma Sneaker</h1>
+                  <p class="card-desc">lorem hkdbdf djbs</p>
+                  <div class="price">$55</div>
+                  <div class="card-buttons">
+                    <button class="btn btn-solid-primary">add to cart</button>
+                    <button class="btn btn-outline-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+          </script>
+        </section>
+
+        <h2 id="card-text" class="component-type-name">5.Text only card</h2>
+        <section class="component-example-wrapper">
+          <div class="card-text">
+            <div class="card-details">
+              <h1 class="card-title">Card Title</h1>
+              <p class="card-desc">
+                I am a very simple card. I am good at containing small bits of
+                information. I am convenient because I require little markup to
+                use effectively.
+              </p>
+              <div class="card-buttons">
+                <button class="btn btn-outline-primary">Action 1</button>
+                <button class="btn btn-outline-primary">Action 2</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="component-code-wrapper">
+          <script type="text/plain" class="line-numbers language-markup">
+            <div class="card-text">
+                <div class="card-details">
+                  <h1 class="card-title">Card Title</h1>
+                  <p class="card-desc">
+                    I am a very simple card. I am good at containing small bits of
+                    information. I am convenient because I require little markup to use
+                    effectively.
+                  </p>
+                  <div class="card-buttons">
+                    <button class="btn btn-outline-primary">Action 1</button>
+                    <button class="btn btn-outline-primary">Action 2</button>
+                  </div>
+                </div>
+              </div>
+          </script>
+        </section>
+
+        <h2 id="card-with-shadow" class="component-type-name">
+          6.Card with shadow
+        </h2>
+        <p class="component-description">
+          To use shadow on cards, include the class
+          <span class="highlighted">card-shadow</span> in any of the above
+          cards.
+        </p>
+        <section class="component-example-wrapper">
+          <div class="card card-shadow badge-container">
+            <img
+              class="responsive-img"
+              src="http://www.atics.sr/wp-content/themes/aaika/assets/images/default.png"
+            />
+            <div class="card-details">
+              <h1 class="card-title">Puma Sneaker</h1>
+              <p class="card-desc">lorem hkdbdf djbs</p>
+              <div class="price">$55</div>
+              <div class="card-buttons">
+                <button class="btn btn-solid-primary">add to cart</button>
+                <button class="btn btn-outline-primary">Buy Now</button>
+              </div>
+            </div>
+            <span class="card-badge"> New </span>
+          </div>
+        </section>
+        <section class="component-code-wrapper">
+          <script type="text/plain" class="line-numbers language-markup">
+            <div class="card card-shadow badge-container">
+              <img
+                class="responsive-img"
+                src="http://www.atics.sr/wp-content/themes/aaika/assets/images/default.png"
+              />
+              <div class="card-details">
+              	<h1 class="card-title">Puma Sneaker</h1>
+                <p class="card-desc">lorem hkdbdf djbs</p>
+                <div class="price">$55</div>
+                <div class="card-buttons">
+                  <button class="btn btn-solid-primary">add to cart</button>
+                  <button class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+              <span class="card-badge"> New </span>
+            </div>
+          </script>
+        </section>
+      </main>
     </div>
+    <script src="/src/prism/prism.js"></script>
   </body>
 </html>
