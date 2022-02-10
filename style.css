@@ -1,6 +1,7 @@
 @import url(./src/components/ui-lib.css);
 @import url("https://fonts.googleapis.com/css2?family=Murecho:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700&display=swap");
+@import url("./src/prism/prism.css");
 
 * {
   margin: 0;
@@ -12,8 +13,12 @@
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
-  /* font-family: "Murecho", sans-serif; */
   font-family: "Mukta", sans-serif;
   background-color: var(--OFFWHITE);
 }
@@ -21,32 +26,86 @@ body {
 /* site */
 .site {
   margin: auto;
-  max-width: 1200px;
-  min-height: 100vh;
+  /* max-width: 850px; */
+  /* min-height: 100vh; */
 }
 
 /* site header */
 .site-header {
-  font-size: 1.5rem;
-  font-weight: bolder;
-  color: var(--BLACK);
-  background-color: var(--WHITE);
+  color: var(--WHITE);
+  background-color: var(--BLACK);
   margin-bottom: 0.625rem;
+  padding: 0.2rem 12vw;
+  min-width: 850px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
-.site-name {
-  padding: 0.75rem;
+.site-header-title {
+  letter-spacing: 0.08rem;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+.hz-nav {
+  display: inline-block;
+  padding: 0;
+}
+.hz-nav li {
+  display: inline-block;
+}
+
+.primary-nav {
+  height: 100%;
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: var(--GRAY);
+  display: inline-flex;
+  gap: 1rem;
+}
+.primary-nav a {
+  transition: all 1s ease;
+}
+.primary-nav a:hover {
+  text-decoration: underline;
+  color: var(--BLACK);
+}
+
+.site-header-ctas {
+  font-size: 1.4rem;
+  display: flex;
+  gap: 0.8rem;
+  margin-left: auto;
+}
+
+.site-header-ctas i {
+  min-width: 1.2em;
+  aspect-ratio: 1;
+  display: flex;
+  place-content: center;
+  border-radius: 50%;
+  padding: 6px;
+}
+
+.site-header-ctas i:hover {
+  background-color: var(--GRAY);
 }
 
 /* site navigation */
 .site-nav {
+  padding: 0 12vw;
+  min-width: 850px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: var(--WHITE);
-  /* color: var(--primary-color-light); */
   margin-bottom: 0.625rem;
 }
 
 .site-nav li {
-  display: inline-block;
+  /*   display: inline-block; */
   margin: 0.25rem;
 }
 
@@ -68,9 +127,56 @@ body {
 
 /* site main content */
 .site-content {
+  padding: 1rem 22vw;
+  min-width: 850px;
+
   background-color: var(--WHITE);
   color: var(--BLACK);
-  padding: 0.75rem;
+}
+
+.component-name {
+  font-size: 1.5rem;
+}
+
+.component-type-list {
+  list-style-position: inside;
+}
+.component-type-list li {
+  margin: 0.25rem 0.25rem;
+}
+
+.component-type-name {
+  font-size: 1.2rem;
+}
+
+.highlighted {
+  background-color: var(--LIGHT-GRAY);
+  color: var(--BLACK);
+  font-weight: 500;
+  padding: 0 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.component-example-wrapper {
+  border: 1px solid var(--LIGHT-GRAY);
+  background-color: var(--OFFWHITE);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 2rem;
+  padding: 1rem;
+  margin: 0.25rem;
+}
+.component-example-wrapper-secondary {
+  display: flex;
+  border-radius: 8px;
+  gap: 0.5rem;
+  padding: 1rem;
+  margin: 0.25rem;
+  border: 1px solid var(--LIGHT-GRAY);
+  background-color: var(--OFFWHITE);
+  flex-direction: column;
 }
 
 /* for component demo */
@@ -83,4 +189,46 @@ h2 ~ .badge-text-container {
 
 .img-wrapper {
   width: 50vw;
+}
+
+/* CODE SNIPPET */
+/* BACKGROUND */
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background: var(--INFO-BG);
+  border: 1px solid var(--LIGHT-GRAY);
+}
+
+/* TAG <> COLOR */
+.token.punctuation {
+  color: var(--RED);
+}
+
+/* TAG NAME COLORS */
+.token.attr-name,
+.token.deleted,
+.token.namespace,
+.token.tag {
+  color: var(--RED);
+}
+
+/* CLASS COLOR */
+.token.attr-value,
+.token.char,
+.token.regex,
+.token.string,
+.token.variable {
+  color: rgb(1, 67, 97);
+}
+
+/* TEXT CONTENT  */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: var(--SUCCESS);
+}
+
+div.code-toolbar > .toolbar > .toolbar-item > a,
+div.code-toolbar > .toolbar > .toolbar-item > button,
+div.code-toolbar > .toolbar > .toolbar-item > span {
+  color: black;
 }

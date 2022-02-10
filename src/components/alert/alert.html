@@ -4,16 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="../../../style.css" />
-    <title>UI - Avatar</title>
+    <title>Adaptive UI</title>
   </head>
   <body>
     <div class="site">
       <header class="site-header">
-        <div class="site-name">UI Library</div>
+        <div class="site-header-title">Adaptive UI</div>
+        <div class="site-header-ctas">
+          <a href="#">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
       </header>
       <nav class="site-nav">
-        <ul>
+        <ul class="hz-nav primary-nav">
+          <li><a href="#">Usage</a></li>
+          <li><a href="#">Typography</a></li>
+          <li><a href="#">Colors</a></li>
+        </ul>
+        <ul class="hz-nav sec-nav">
           <li class="site-nav-link">
             <a href="/src/components/avatar/avatar.html"> Avatar</a>
           </li>
@@ -31,10 +48,88 @@
         <h1 class="component-name">Alert</h1>
         <p class="component-description">
           An alert displays a short, important message in a way that attracts
-          the user's attention without interrupting the user's task.
+          the user's attention without interrupting the user's task.<br />
+          You need to include <span class="highlighted">alert</span> class to
+          use avatars. Alerts are available in 4 different colors depending on
+          the type of alert. You can use the following classes in your alert for
+          different colors:
         </p>
-        <div class="component-display"></div>
+        <ul class="component-type-list">
+          <li><span class="highlighted">alert-error</span> : Error Alert</li>
+          <li>
+            <span class="highlighted">alert-warning</span> : Warning Alert
+          </li>
+          <li>
+            <span class="highlighted">alert-success</span> : Success Alert
+          </li>
+          <li><span class="highlighted">alert-info</span> : Info Alert</li>
+        </ul>
+        Also there are two types of alerts that you can use:
+        <h2 class="component-type-name">1. Basic Alert</h2>
+        <p class="component-description">
+          Basic alerts can be used using the class
+          <span class="highlighted">alert</span> along with the class for color.
+        </p>
+        <section class="component-example-wrapper-secondary">
+          <div class="alert alert-error">
+            <i class="fas fa-exclamation-circle alert-icon"></i>
+            <p class="alert-message">This is an error alert — check it out!</p>
+          </div>
+          <div class="alert alert-warning">
+            <i class="fas fa-exclamation-triangle alert-icon"></i>
+            <p class="alert-message">This is a warning alert — check it out!</p>
+          </div>
+          <div class="alert alert-success">
+            <i class="far fa-check-circle alert-icon"></i>
+            <p class="alert-message">This is a success alert — check it out!</p>
+          </div>
+          <div class="alert alert-info">
+            <i class="fas fa-info-circle alert-icon"></i>
+            <p class="alert-message">This is an info alert — check it out!</p>
+          </div>
+        </section>
+        <section class="component-code-wrapper">
+          <script type="text/plain" class="line-numbers language-markup">
+            // Error Alert
+            <div class="alert alert-error">
+                <i class="fas fa-exclamation-circle alert-icon"></i>
+                <p class="alert-message"> ...alert message here...</p>
+            </div>
+
+            // Warning Alert
+            <div class="alert alert-warning">
+                <i class="fas fa-exclamation-triangle alert-icon"></i>
+                <p class="alert-message"> ...alert message here...</p>
+            </div>
+          </script>
+        </section>
+        <h2 class="component-type-name">2. Alert with dismiss button</h2>
+        <p class="component-description">
+          To use alert with close button just insert an extra button in the
+          basic alert at the end with class
+          <span class="highlighted">alert-close-button</span>
+        </p>
+        <section class="component-example-wrapper-secondary">
+          <div class="alert alert-info">
+            <i class="fas fa-exclamation-circle alert-icon"></i>
+            <p class="alert-message">This is an error alert — check it out!</p>
+            <button class="alert-close-button">
+              <i class="far fa-times-circle"></i>
+            </button>
+          </div>
+        </section>
+        <script type="text/plain" class="line-numbers language-markup">
+          // Info Alert
+          <div class="alert alert-info">
+              <i class="fas fa-exclamation-circle alert-icon"></i>
+              <p class="alert-message"> ...alert message here... </p>
+          		<button class="alert-close-button">
+          				<i class="far fa-times-circle"></i>
+          		</button>
+          </div>
+        </script>
       </main>
     </div>
+    <script src="../../prism/prism.js"></script>
   </body>
 </html>
