@@ -1,9 +1,9 @@
-.grid-2c {
+.grid-two-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.grid-3c {
+.grid-three-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
