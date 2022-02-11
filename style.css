@@ -180,6 +180,28 @@ body {
   flex-direction: column;
 }
 
+/* Grids demo css */
+.grid-wrapper {
+  width: 100%;
+  max-height: 10rem;
+  background-color: var(--GRAY);
+  grid-gap: 2rem;
+  padding: 1.5rem;
+}
+
+.grid-item-one,
+.grid-item-two,
+.grid-item-three {
+  background-color: var(--OFFWHITE);
+  display: grid;
+  place-content: center;
+}
+
+.grid-item-one img {
+  height: 100%;
+  object-fit: cover;
+}
+
 /* for component demo */
 h2 ~ .badge-text-container {
   width: fit-content;
@@ -192,7 +214,12 @@ h2 ~ .badge-text-container {
   width: 50vw;
 }
 
-/* CODE SNIPPET */
+/* CODE SNIPPET  : */
+
+/* for copy button */
+div.code-toolbar > .toolbar {
+  opacity: 1;
+}
 /* BACKGROUND */
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {

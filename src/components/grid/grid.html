@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../ui-lib.css" />
-    <link rel="stylesheet" href="../../../style.css" />
+    <link rel="stylesheet" href="/src/components/ui-lib.css" />
+    <link rel="stylesheet" href="/style.css" />
     <title>Adaptive UI</title>
   </head>
   <body>
@@ -67,53 +67,55 @@
         </ul>
       </nav>
       <main class="site-content">
-        <h1 class="component-name">Image</h1>
+        <h1 class="component-name">Grid</h1>
         <p class="component-description">
-          Images helps you to attract user's attention.
+          Grids provide a common graphic language that makes it easier for both
+          designers and developers to work on a website. It helps users to
+          better understand the information as it's shown in a more structured
+          and logical way
           <br />
-          You can have two types of responsive images that scales with respect
-          to parent element. And you can use following classes:
+          There are two types of grid layouts available and you can create it
+          with the following classes :
         </p>
         <ul class="component-type-list">
-          <li>
-            <span class="highlighted">img-responsive</span>: Basic Responsive
-            Image
-          </li>
-          <li>
-            <span class="highlighted">round-img</span>: Circular Responsive
-            Image
-          </li>
+          <li><span class="highlighted">grid-2c</span> : Two column grid</li>
+          <li><span class="highlighted">grid-3c</span> : Three column grid</li>
         </ul>
-        <h2 class="component-type-name">Basic Responsive Image</h2>
+        <p class="component-description">
+          Note: Styling shown in the demo is only for example, grid-2c, grid-3c
+          will only create the structure of grid.
+        </p>
+        <h2 class="component-type-name">Two Column Grid</h2>
         <section class="component-example-wrapper">
-          <div class="img-wrapper">
-            <img
-              class="responsive-img"
-              src="/src/assets/desktop.webp"
-              alt="desktop image"
-            />
+          <div class="grid-2c grid-wrapper">
+            <div class="grid-item-one">grid-item-one</div>
+            <div class="grid-item-two">grid-item-two</div>
           </div>
         </section>
         <section class="component-code-wrapper">
           <script type="text/plain" class="line-numbers language-markup">
-            <img class="responsive-img" src="..."  alt="..." />
+            <div class="grid-2c">
+              <div class="..."> ... </div>
+              <div class="..."> ... </div>
+            </div>
           </script>
         </section>
+        <h2 class="component-type-name">Three Column Grid</h2>
 
-        <h2 class="component-type-name">Circular Responsive Image</h2>
         <section class="component-example-wrapper">
-          <div class="img-wrapper">
-            <img
-              class="round-img"
-              src="/src/assets/desktop.webp"
-              alt="desktop image"
-            />
+          <div class="grid-3c grid-wrapper">
+            <div class="grid-item-one">grid-item-one</div>
+            <div class="grid-item-two">grid-item-two</div>
+            <div class="grid-item-three">grid-item-three</div>
           </div>
         </section>
-
         <section class="component-code-wrapper">
           <script type="text/plain" class="line-numbers language-markup">
-            <img class="round-img" src="..." alt="..." />
+            <div class="grid-3c">
+              <div class="... "> ... </div>
+              <div class=" ... "> ... </div>
+              <div class=" ... "> ... </div>
+            </div>
           </script>
         </section>
       </main>
