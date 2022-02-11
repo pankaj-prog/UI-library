@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../ui-lib.css" />
+    <link rel="stylesheet" href="../../../style.css" />
+    <title>Adaptive UI</title>
+  </head>
+  <body>
+    <div class="site">
+      <header class="site-header">
+        <div class="site-header-title">Adaptive UI</div>
+        <div class="site-header-ctas">
+          <a href="#">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </header>
+      <nav class="site-nav">
+        <ul class="hz-nav primary-nav">
+          <li><a href="#">Usage</a></li>
+          <li><a href="#">Typography</a></li>
+          <li><a href="#">Colors</a></li>
+        </ul>
+        <ul class="hz-nav sec-nav">
+          <li class="site-nav-link">
+            <a href="/src/components/avatar/avatar.html"> Avatar</a>
+          </li>
+          <li class="site-nav-link">
+            <a href="/src/components/alert/alert.html"> Alert </a>
+          </li>
+          <li class="site-nav-link">
+            <a href="/src/components/badge/badge.html"> Badge</a>
+          </li>
+          <li class="site-nav-link">
+            <a href="/src/components/button/button.html">Button</a>
+          </li>
+          <li class="site-nav-link">
+            <a href="/src/components/cards/cards.html">Card</a>
+          </li>
+          <li class="site-nav-link">
+            <a href="/src/components/image/image.html">Image</a>
+          </li>
+          <li class="site-nav-link">
+            <a href="/src/components/input/input.html">Input</a>
+          </li>
+        </ul>
+      </nav>
+      <main class="site-content">
+        <h1 class="component-name">Button</h1>
+        <p class="component-description">
+          Buttons communicate actions that users can take. Buttons are used in
+          cards, dialogs, forms, and many other components and patterns. <br />
+          You need to include class <span class="highlighted">btn</span> to use
+          the button component. Buttons are available in two colors:
+        </p>
+        <ul class="component-type-list">
+          <li>Primary : Black Color</li>
+          <li>Secondary : White Color</li>
+        </ul>
+
+        Buttons are available in 4 different types:
+        <h2 class="component-type-name">Basic Buttons</h2>
+        <p class="component-description">
+          Basic Buttons are available in three shapes and each of them have two
+          more variants. By default the button is box shaped. Use the following
+          classes to change the shapes of buttons.
+        </p>
+        <ul class="component-type-list">
+          <li><span class="highlighted">btn-rc</span></li>
+          <li><span class="highlighted">btn-pill</span></li>
+        </ul>
+        And classes solid or outline for the variants.
+
+        <section class="component-example-wrapper">
+          <button class="btn btn-solid-primary">Button</button>
+          <button class="btn btn-outline-primary">Button</button>
+          <button class="btn btn-solid-primary btn-rc">Button</button>
+          <button class="btn btn-outline-primary btn-rc">Button</button>
+          <button class="btn btn-solid-primary btn-pill">Button</button>
+          <button class="btn btn-outline-primary btn-pill">Button</button>
+        </section>
+        <section class="component-code-wrapper">
+          <script type="text/plain" class="line-numbers language-markup">
+            // Simple Solid Button
+            <button class="btn btn-solid-primary">Button text</button>
+
+            // Outline Button with round corners
+            <button class="btn btn-outline-primary btn-rc">Button text</button>
+
+            // Solid Button in pill shape
+            <button class="btn btn-solid-primary btn-pill">Button text</button>
+          </script>
+        </section>
+        <h2 class="component-type-name">Button with icon</h2>
+        <p class="component-description">
+          Button with icons are similar to basic buttons and are available in
+          same shapes and variants. It also have icon along with the text.
+        </p>
+        <section class="component-example-wrapper">
+          <button class="btn btn-solid-primary">
+            <i class="far fa-trash-alt"></i>
+            Delete
+          </button>
+          <button class="btn btn-outline-primary btn-pill">
+            <i class="far fa-address-book"></i>
+            Contact
+          </button>
+        </section>
+        <section class="component-code-wrapper">
+          <script type="text/plain" class="line-numbers language-markup">
+            <button class="btn btn-solid-primary">
+              <i class="far fa-trash-alt"></i> // Font Awesome Icons
+              Delete
+            </button>
+          </script>
+        </section>
+        <h2 class="component-type-name">Floating Buttons and Link Buttons.</h2>
+        <p class="component-description">
+          Floating button is fixed with respect to the viewport at the bottom
+          right.
+        </p>
+        <section class="component-example-wrapper">
+          <button class="btn btn-outline-primary btn-pill btn-lg btn-float">
+            <i class="fa fa-comment"></i>
+          </button>
+          <button class="btn btn-link-primary">
+            <a href="#">Link here</a>
+          </button>
+          <button class="btn btn-link-primary">
+            <a href="#">More info.</a>
+          </button>
+        </section>
+
+        <section class="component-code-wrapper">
+          <script type="text/plain" class="line-numbers language-markup">
+            <button class="btn btn-link-primary">
+            	<a href="#">Button</a>
+            </button>
+          </script>
+        </section>
+      </main>
+    </div>
+    <script src="/src/prism/prism.js"></script>
+  </body>
+</html>

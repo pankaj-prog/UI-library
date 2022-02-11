@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../ui-lib.css" />
+    <link rel="stylesheet" href="../../../style.css" />
+    <title>Adaptive UI</title>
+  </head>
+  <body>
+    <div class="site">
+      <header class="site-header">
+        <div class="site-header-title">Adaptive UI</div>
+        <div class="site-header-ctas">
+          <a href="#">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </header>
+      <nav class="site-nav">
+        <ul class="hz-nav primary-nav">
+          <li><a href="#">Usage</a></li>
+          <li><a href="#">Typography</a></li>
+          <li><a href="#">Colors</a></li>
+        </ul>
+        <ul class="hz-nav sec-nav">
+          <li class="site-nav-link">
+            <a href="/src/components/avatar/avatar.html"> Avatar</a>
+          </li>
+          <li class="site-nav-link">
+            <a href="/src/components/alert/alert.html"> Alert </a>
+          </li>
+          <li class="site-nav-link">
+            <a href="/src/components/badge/badge.html"> Badge</a>
+          </li>
+          <li class="site-nav-link">
+            <a href="/src/components/button/button.html">Button</a>
+          </li>
+          <li class="site-nav-link">
+            <a href="/src/components/cards/cards.html">Card</a>
+          </li>
+          <li class="site-nav-link">
+            <a href="/src/components/image/image.html">Image</a>
+          </li>
+          <li class="site-nav-link">
+            <a href="/src/components/input/input.html">Input</a>
+          </li>
+        </ul>
+      </nav>
+      <main class="site-content">
+        <h1 class="component-name">Image</h1>
+        <p class="component-description">
+          Images helps you to attract user's attention.
+          <br />
+          You can have two types of responsive images that scales with respect
+          to parent element. And you can use following classes:
+        </p>
+        <ul class="component-type-list">
+          <li>
+            <span class="highlighted">img-responsive</span>: Basic Responsive
+            Image
+          </li>
+          <li>
+            <span class="highlighted">round-img</span>: Circular Responsive
+            Image
+          </li>
+        </ul>
+        <h2 class="component-type-name">Basic Responsive Image</h2>
+        <section class="component-example-wrapper">
+          <div class="img-wrapper">
+            <img
+              class="responsive-img"
+              src="/src/assets/desktop.webp"
+              alt="desktop image"
+            />
+          </div>
+        </section>
+        <section class="component-code-wrapper">
+          <script type="text/plain" class="line-numbers language-markup">
+            <img class="responsive-img" src="..."  alt="..." />
+          </script>
+        </section>
+
+        <h2 class="component-type-name">Circular Responsive Image</h2>
+        <section class="component-example-wrapper">
+          <div class="img-wrapper">
+            <img
+              class="round-img"
+              src="/src/assets/desktop.webp"
+              alt="desktop image"
+            />
+          </div>
+        </section>
+
+        <section class="component-code-wrapper">
+          <script type="text/plain" class="line-numbers language-markup">
+            <img class="round-img" src="..." alt="..." />
+          </script>
+        </section>
+      </main>
+    </div>
+    <script src="/src/prism/prism.js"></script>
+  </body>
+</html>

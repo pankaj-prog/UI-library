@@ -1,6 +1,6 @@
 .card {
   border-radius: 4px;
-  box-shadow: 2px 2px 4px -4px var(--BLACK);
+  overflow: hidden;
   width: 14rem;
   border: 1px solid var(--GRAY);
   position: relative;
@@ -8,8 +8,8 @@
 
 .card-hz {
   border: 1px solid var(--GRAY);
+  overflow: hidden;
   border-radius: 4px;
-  box-shadow: 4px 4px 6px -6px var(--BLACK);
   display: flex;
   align-items: center;
   height: 10rem;
@@ -22,35 +22,36 @@
   max-width: 24rem;
 }
 
-.details {
+.card-details {
   padding: 8px;
 }
 
-.title {
+.card-title {
   font-size: 1.2rem;
 }
 
-.buttons {
+.card-buttons {
   margin-top: 0.4rem;
   display: flex;
   gap: 8px;
 }
 
-.ctas {
+.card-ctas {
   position: absolute;
   top: 0.2rem;
   right: 0.2rem;
   display: inline-flex;
 }
 
-.ctas .dismiss {
+.card-ctas .card-dismiss {
+  cursor: pointer;
   background: transparent;
   border: none;
   font-size: 1rem;
   transition: all 0.4s ease;
 }
 
-.dismiss:hover {
+.card-dismiss:hover {
   background: var(--GRAY);
 }
 
@@ -64,14 +65,13 @@
   width: 20%;
   padding-left: 4px;
   border-radius: 0 1rem 1rem 0;
-  box-shadow: 4px 4px 5px -5px var(--BLACK);
   display: inline-block;
   position: absolute;
   top: 1rem;
   left: 0;
 }
 
-.overlay {
+.card-overlay {
   font-size: larger;
   font-weight: bold;
   color: var(--WHITE);
@@ -84,4 +84,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.card-shadow {
+  box-shadow: 6px 6px 6px -5px var(--BLACK);
 }
