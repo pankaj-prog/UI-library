@@ -1,6 +1,6 @@
 @import url(./src/components/ui-lib.css);
 @import url("https://fonts.googleapis.com/css2?family=Murecho:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
 @import url("./src/prism/prism.css");
 
 * {
@@ -58,7 +58,7 @@ body {
 
 .primary-nav {
   height: 100%;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 1.2rem;
   color: var(--GRAY);
   display: inline-flex;
@@ -95,7 +95,10 @@ body {
 /* site navigation */
 .site-nav {
   padding: 0 12vw;
-  /* min-width: 850px; */
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  box-shadow: 0 4px 10px -4px black;
 
   display: flex;
   align-items: center;
@@ -106,7 +109,7 @@ body {
 
 .site-nav li {
   /*   display: inline-block; */
-  margin: 0.25rem;
+  margin: 0.1rem 0.4rem 0.1rem 0;
 }
 
 .site-nav-link a {
@@ -135,7 +138,7 @@ body {
 }
 
 .component-name {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .component-type-list {
@@ -180,19 +183,46 @@ body {
   flex-direction: column;
 }
 
-/* for component demo */
-h2 ~ .badge-text-container {
-  width: fit-content;
-  background-color: var(--BLACK);
-  color: var(--OFFWHITE);
-  padding: 0 0.5em;
+/* Grids demo  */
+.grid-wrapper {
+  width: 100%;
+  max-height: 10rem;
+  background-color: var(--GRAY);
+  gap: 2rem;
+  padding: 1.5rem;
 }
 
-.img-wrapper {
-  width: 50vw;
+.grid-item-one,
+.grid-item-two,
+.grid-item-three {
+  background-color: var(--OFFWHITE);
+  display: grid;
+  place-content: center;
 }
 
-/* CODE SNIPPET */
+.grid-item-one img {
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Typography demo  */
+.typography-wrapper {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.typography-info {
+  margin-left: auto;
+}
+
+/* CODE SNIPPET  : */
+
+/* for copy button */
+div.code-toolbar > .toolbar {
+  opacity: 1;
+  z-index: 1;
+}
 /* BACKGROUND */
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
