@@ -36,25 +36,25 @@ h4 {
   line-height: 1rem;
 }
 
-.p-xxl {
+.text-xxl {
   font-size: 3rem;
   line-height: 4rem;
 }
-.p-xl {
+.text-xl {
   font-size: 2rem;
   line-height: 2.5rem;
 }
-.p-lg {
+.text-lg {
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
-.p-md {
+.text-md {
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
-.p-sm {
+.text-sm {
   font-size: 0.8rem;
   line-height: 1rem;
 }
