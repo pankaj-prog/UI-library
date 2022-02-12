@@ -26,8 +26,6 @@ body {
 /* site */
 .site {
   margin: auto;
-  /* max-width: 850px; */
-  /* min-height: 100vh; */
 }
 
 /* site header */
@@ -65,7 +63,7 @@ body {
   gap: 1rem;
 }
 .primary-nav a {
-  transition: all 1s ease;
+  transition: color 1s ease;
 }
 .primary-nav a:hover {
   text-decoration: underline;
@@ -99,7 +97,6 @@ body {
   top: 0;
   z-index: 2;
   box-shadow: 0 4px 10px -4px black;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -120,7 +117,7 @@ body {
   display: flex;
   align-items: center;
   gap: 0.375rem;
-  transition: all 1s ease;
+  transition: color 1s ease;
 }
 
 .site-nav-link a:hover {
@@ -131,10 +128,14 @@ body {
 /* site main content */
 .site-content {
   padding: 1rem 22vw;
-  /* min-width: 850px; */
-
   background-color: var(--WHITE);
   color: var(--BLACK);
+}
+
+/* usage content wrapper */
+.usage-content-wrapper {
+  min-height: 85vh;
+  min-height: calc(100vh - (2.65rem + 2.55rem + 1.25rem));
 }
 
 .component-name {
@@ -216,7 +217,7 @@ body {
   margin-left: auto;
 }
 
-/* CODE SNIPPET  : */
+/********* CODE SNIPPET  : HTML ****************/
 
 /* for copy button */
 div.code-toolbar > .toolbar {
@@ -262,4 +263,19 @@ div.code-toolbar > .toolbar > .toolbar-item > a,
 div.code-toolbar > .toolbar > .toolbar-item > button,
 div.code-toolbar > .toolbar > .toolbar-item > span {
   color: black;
+}
+
+/*********  CODE SNIPPET : CSS  ************/
+.token.atrule,
+.token.builtin,
+.token.important,
+.token.keyword,
+.token.selector {
+  color: #ba2026;
+}
+/*  for funtions */
+.token.boolean,
+.token.function,
+.token.number {
+  color: #296919;
 }
