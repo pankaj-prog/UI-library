@@ -1,3 +1,4 @@
+/* Headings */
 .h1,
 .h2,
 .h3,
@@ -37,6 +38,7 @@ h6 {
   font-size: 0.83em;
 }
 
+/* Text sizes */
 .text-xxxl {
   font-size: 2em;
 }
@@ -61,6 +63,8 @@ h6 {
   font-size: 0.83em;
 }
 
+/* Font Weight  */
+
 .fw-l {
   font-weight: 300;
 }
@@ -79,4 +83,18 @@ h6 {
 
 .fw-xb {
   font-weight: 900;
+}
+
+/* Text Align and Gray Text */
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-muted {
+  color: var(--GRAY);
 }
