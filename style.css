@@ -34,7 +34,6 @@ body {
   background-color: var(--BLACK);
   margin-bottom: 0.625rem;
   padding: 0.2rem 12vw;
-  /* min-width: 850px; */
   display: flex;
   gap: 1rem;
   align-items: center;
@@ -123,6 +122,31 @@ body {
 .site-nav-link a:hover {
   text-decoration: underline;
   color: var(--BLACK);
+}
+
+/* site nav more links */
+.more-links-wrapper {
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--GRAY);
+}
+
+.more-links {
+  width: 100%;
+  display: none;
+  position: absolute;
+  background-color: var(--WHITE);
+  box-shadow: 0 0 8px 0 var(--GRAY);
+}
+
+.more-links-wrapper:hover {
+  color: var(--BLACK);
+  text-decoration: underline;
+}
+.more-links-wrapper:hover .more-links {
+  display: flex;
+  flex-direction: column;
 }
 
 /* site main content */
