@@ -6,6 +6,6 @@
 }
 
 .rating i:hover {
-  color: rgb(255, 224, 46);
+  color: var(--RATING-COLOR);
   font-weight: 800;
 }
