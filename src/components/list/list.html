@@ -80,7 +80,112 @@
           </li>
         </ul>
       </nav>
-      <main class="site-content"></main>
+      <main class="site-content">
+        <p class="component-description">
+          Lists are continuous, vertical indexes of text or images. You can use
+          following type of lists.
+        </p>
+        <ul class="component-type-list">
+          <li>
+            <button class="btn btn-link-primary">
+              <a href="#unordered">Unordered List</a>
+            </button>
+          </li>
+          <li>
+            <button class="btn btn-link-primary">
+              <a href="#ordered">Ordered List</a>
+            </button>
+          </li>
+          <li>
+            <button class="btn btn-link-primary">
+              <a href="#stacked">Stacked List</a>
+            </button>
+          </li>
+        </ul>
+        <h2 id="unordered" class="component-type-name">Unordered List</h2>
+        <p class="component-type-description">
+          You can use the classes
+          <span class="highlighted">list-type-bullet</span> and
+          <span class="highlighted">list-type-square</span> to use bullet or
+          squared lists respectively
+        </p>
+        <section class="component-example-wrapper">
+          <ul class="list-type-bullet">
+            <h4>Heading</h4>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+          </ul>
+          <ul class="list-type-square">
+            <h4>Heading</h4>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+          </ul>
+        </section>
+        <section class="component-code-wrapper">
+          <script type="text/plain" class="line-numbers language-markup">
+            <ul class="list-type-bullet">
+              <h4>Heading</h4>
+              <li>List Item</li>
+              <li>List Item</li>
+              <li>List Item</li>
+            </ul>
+            <ul class="list-type-square">
+              <h4>Heading</h4>
+              <li>List Item</li>
+              <li>List Item</li>
+              <li>List Item</li>
+            </ul>
+          </script>
+        </section>
+
+        <h2 id="ordered" class="component-type-name">Ordered List</h2>
+        <p class="component-type-description">
+          You can use the class
+          <span class="highlighted">list-type-number</span> for numbered list.
+        </p>
+        <section class="component-example-wrapper">
+          <ul class="list-type-number">
+            <h4>Heading</h4>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+          </ul>
+        </section>
+        <section class="component-code-wrapper">
+          <script type="text/plain" class="line-numbers language-markup">
+            <ul class="list-type-number">
+              <h4>Heading</h4>
+              <li>List Item</li>
+              <li>List Item</li>
+              <li>List Item</li>
+            </ul>
+          </script>
+        </section>
+
+        <h2 id="stacked" class="component-type-name">Stacked List</h2>
+        <p class="component-description">
+          Stacked lists are stacked on top of each other in notification format.
+        </p>
+        <section class="component-example-wrapper">
+          <ul class="list-type-stacked">
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+          </ul>
+        </section>
+        <section class="component-code-wrapper">
+          <script type="text/plain" class="line-numbers language-markup">
+            <ul class="list-type-stacked">
+              <li>List Item</li>
+              <li>List Item</li>
+              <li>List Item</li>
+            </ul>
+          </script>
+        </section>
+      </main>
     </div>
+    <script src="/src/prism/prism.js"></script>
   </body>
 </html>
