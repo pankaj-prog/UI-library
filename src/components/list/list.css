@@ -1,0 +1,25 @@
+.list-type-square,
+.list-type-bullet,
+.list-type-number {
+  list-style-position: inside;
+}
+
+.list-type-square {
+  list-style-type: square;
+}
+
+.list-type-number {
+  list-style-type: decimal;
+}
+
+.list-type-stacked {
+  list-style-type: none;
+}
+
+.list-type-stacked li {
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  margin: 0 0 0.5rem 0;
+  background-color: var(--BLACK);
+  color: var(--WHITE);
+}

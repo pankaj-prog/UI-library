@@ -82,15 +82,105 @@
       </nav>
       <main class="site-content">
         <h1 class="component-name">Toast</h1>
-        <section class="component-example-wrapper"></section>
+        <p class="component-description">
+          Toasts are asynchronous short messages for users. Generally they are
+          used as an interface feedback pattern for informing the user about the
+          results of an action.
+          <br />
+          You need to include <span class="highlighted">toast</span> class to
+          use toast. Toast are available in 4 different colors depending on the
+          type of information. You can use the following classes in your toast
+          for different colors:
+        </p>
+        <ul class="component-type-list">
+          <li><span class="highlighted">toast-error</span> : Error toast</li>
+          <li>
+            <span class="highlighted">toast-warning</span> : Warning toast
+          </li>
+          <li>
+            <span class="highlighted">toast-success</span> : Success toast
+          </li>
+          <li><span class="highlighted">toast-info</span> : Info toast</li>
+        </ul>
+        <section class="component-example-wrapper">
+          <button id="toast-error-btn" class="btn btn-rc btn-outline-primary">
+            Error toast
+          </button>
+
+          <button id="toast-info-btn" class="btn btn-rc btn-outline-primary">
+            Informative toast
+          </button>
+
+          <button id="toast-warning-btn" class="btn btn-rc btn-outline-primary">
+            Warning toast
+          </button>
+
+          <button id="toast-success-btn" class="btn btn-rc btn-outline-primary">
+            Success toast
+          </button>
+
+          <div id="toast-error" class="toast toast-error">
+            <p>Can't send photo. Retry in 5 seconds.</p>
+            <button class="btn">
+              <i class="fa fa-times"></i>
+            </button>
+          </div>
+
+          <div id="toast-info" class="toast toast-info">
+            <p>Can't send photo. Retry in 5 seconds.</p>
+            <button class="btn">
+              <i class="fa fa-times"></i>
+            </button>
+          </div>
+
+          <div id="toast-warning" class="toast toast-warning">
+            <p>Can't send photo. Retry in 5 seconds.</p>
+            <button class="btn">
+              <i class="fa fa-times"></i>
+            </button>
+          </div>
+
+          <div id="toast-success" class="toast toast-success">
+            <p>Can't send photo. Retry in 5 seconds.</p>
+            <button class="btn">
+              <i class="fa fa-times"></i>
+            </button>
+          </div>
+        </section>
         <section class="component-code-wrapper">
-          <script
-            type="text/plain"
-            class="line-numbers language-markup"
-          ></script>
+          <script type="text/plain" class="line-numbers language-markup">
+            <div id="toast-error" class="toast toast-error">
+              <p>Can't send photo. Retry in 5 seconds.</p>
+              <button class="btn">
+                <i class="fa fa-times"></i>
+              </button>
+            </div>
+
+            <div id="toast-info" class="toast toast-info">
+              <p>Can't send photo. Retry in 5 seconds.</p>
+              <button class="btn">
+                <i class="fa fa-times"></i>
+              </button>
+            </div>
+
+            <div id="toast-warning" class="toast toast-warning">
+              <p>Can't send photo. Retry in 5 seconds.</p>
+              <button class="btn">
+                <i class="fa fa-times"></i>
+              </button>
+            </div>
+
+            <div id="toast-success" class="toast toast-success">
+              <p>Can't send photo. Retry in 5 seconds.</p>
+              <button class="btn">
+                <i class="fa fa-times"></i>
+              </button>
+            </div>
+          </script>
         </section>
       </main>
     </div>
+    <script src="./toast.js"></script>
     <script src="/src/prism/prism.js"></script>
   </body>
 </html>
