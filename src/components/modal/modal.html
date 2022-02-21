@@ -82,9 +82,72 @@
         </ul>
       </nav>
       <main class="site-content">
-        <section class="documentation"></section>
+        <p class="component-name">Modal</p>
+        <p class="component-description">
+          The modal component provides a solid foundation for creating dialogs,
+          popovers, lightboxes, or whatever else.
+          <br />
+          To use the modal component, use the classes mentioned in the code
+          snippet and for the functionality add the javasciprt.
+        </p>
+
+        <section class="component-example-wrapper">
+          <button id="modal-btn" class="btn btn-outline-primary btn-rc">
+            Modal
+          </button>
+
+          <div id="modal" class="modal-wrapper">
+            <div class="modal">
+              <header class="modal-header">
+                <h3>Modal</h3>
+                <button id="modal-close-btn" class="btn">
+                  <i class="fa fa-times"></i>
+                </button>
+              </header>
+              <p class="modal-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deserunt ad repellat, architecto velit sit nihil molestiae dolor
+                tempora quae voluptatum.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="component-code-wrapper">
+          <script type="text/plain" class="line-numbers language-markup">
+                <div id="modal" class="modal-wrapper">
+                  <div class="modal">
+                    <header class="modal-header">
+                      <h3>Modal</h3>
+                      <button id="modal-close-btn" class="btn">
+                        <i class="fa fa-times"></i>
+                      </button>
+                    </header>
+                    <p class="modal-description">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Deserunt ad repellat, architecto velit sit nihil molestiae dolor
+                      tempora quae voluptatum.
+                    </p>
+                  </div>
+                </div>
+
+              //javascript
+            const modalShowBtn = document.getElementById("modal-btn");
+                  const modalCloseBtn = document.getElementById("modal-close-btn");
+                  const modal = document.getElementById("modal");
+
+                  modalShowBtn.addEventListener("click", () => {
+                    modal.style.display = "flex";
+                  });
+
+                  modalCloseBtn.addEventListener("click", () => {
+                    modal.style.display = "none";
+                  });
+          </script>
+        </section>
       </main>
     </div>
+    <script src="./modal.js"></script>
     <script src="../../prism/prism.js"></script>
   </body>
 </html>

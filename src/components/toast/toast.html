@@ -149,33 +149,32 @@
         </section>
         <section class="component-code-wrapper">
           <script type="text/plain" class="line-numbers language-markup">
-            <div id="toast-error" class="toast toast-error">
-              <p>Can't send photo. Retry in 5 seconds.</p>
-              <button class="btn">
-                <i class="fa fa-times"></i>
-              </button>
-            </div>
+                    <div id="toast-error" class="toast toast-error">
+                      <p>Can't send photo. Retry in 5 seconds.</p>
+                      <button class="btn">
+                        <i class="fa fa-times"></i>
+                      </button>
+                    </div>
 
-            <div id="toast-info" class="toast toast-info">
-              <p>Can't send photo. Retry in 5 seconds.</p>
-              <button class="btn">
-                <i class="fa fa-times"></i>
-              </button>
-            </div>
+                  <button id="toast-error-btn" class="btn btn-rc btn-outline-primary">
+                    Error toast
+                  </button>
 
-            <div id="toast-warning" class="toast toast-warning">
-              <p>Can't send photo. Retry in 5 seconds.</p>
-              <button class="btn">
-                <i class="fa fa-times"></i>
-              </button>
-            </div>
+            //javascript
 
-            <div id="toast-success" class="toast toast-success">
-              <p>Can't send photo. Retry in 5 seconds.</p>
-              <button class="btn">
-                <i class="fa fa-times"></i>
-              </button>
-            </div>
+
+                  const errorToast = document.getElementById("toast-error");
+                  const errorToastBtn = document.getElementById("toast-error-btn");
+
+                  function clickHandler(btn, el) {
+                    btn.addEventListener("click", () => {
+                      el.style.display = "flex";
+                      setTimeout(() => {
+                        el.style.display = "none";
+                      }, 5000);
+                    });
+                  }
+                  clickHandler(errorToastBtn, errorToast);
           </script>
         </section>
       </main>

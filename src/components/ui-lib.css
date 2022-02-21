@@ -12,6 +12,8 @@
 @import url(./navigation/navigation.css);
 @import url(./toast/toast.css);
 @import url(./list/list.css);
+@import url(./rating/rating.css);
+@import url(./modal/modal.css);
 
 * {
   margin: 0;
