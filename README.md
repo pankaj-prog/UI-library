@@ -30,7 +30,7 @@ You can also import the stylesheet in your html file.
 
 1. Clone the repository by running the command in your terminal.
 
-git clone git@github.com:pankaj-prog/UI-library.git
+git clone https://github.com/pankaj-prog/UI-library.git
 
 2. A directory named "Ui-library" will be created on your machine.
 3. Go to the index.html and use the live server to run the project.
@@ -48,6 +48,10 @@ git clone git@github.com:pankaj-prog/UI-library.git
 - [Input](#input)
 - [Navigation](#navigation)
 - [Grid](#grid)
+- [Lists](#lists)
+- [Modal](#modal)
+- [Rating](#rating) 
+- [Toast](#toast)
 
 ---
 ### Typography
@@ -167,3 +171,41 @@ Website navigation allows users to flow from one page to another.
 You will find the following types of **navigation** on https://adaptiveui.netlify.app/src/components/navigation/navigation.html
 
 > Simple Navigtion -> Simple navigation consist of a brand name, some links to different pages, few call to action and a search bar. You will need to include the classes as mentioned in the code snippet to use this component.
+
+### Lists
+
+Lists are continuous, vertical indexes of text or images. You can use following type of lists.
+
+You will find the following types of **lists** on https://adaptiveui.netlify.app/src/components/list/list.html
+
+> Unordered List
+
+> Ordered List
+
+> Stacked List
+
+### Modal
+
+The modal component provides a solid foundation for creating dialogs, popovers, lightboxes, or whatever else.
+
+Link: https://adaptiveui.netlify.app/src/components/modal/modal.html
+
+### Rating
+
+Rating Component helps capture the user feedback in form of rating. With the help of this feature, users can rate anything.
+
+Link: https://adaptiveui.netlify.app/src/components/rating/rating.html
+
+### Toast
+
+Toasts are asynchronous short messages for users. Generally they are used as an interface feedback pattern for informing the user about the results of an action.
+
+You will find the following types of **toast** on https://adaptiveui.netlify.app/src/components/toast/toast.html
+
+> Error toast
+
+> Info toast
+
+> Warning toast
+
+> Success toast
