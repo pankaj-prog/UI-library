@@ -14,6 +14,7 @@
 @import url(./list/list.css);
 @import url(./rating/rating.css);
 @import url(./modal/modal.css);
+@import url(./slider/slider.css);
 
 * {
   margin: 0;
