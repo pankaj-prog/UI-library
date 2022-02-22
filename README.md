@@ -26,6 +26,14 @@ You can also import the stylesheet in your html file.
 ```
 ---
 
+## Features
+
+> Dark Mode
+
+> Mobile Responsive
+
+---
+
 ## Running the Component Library Locally
 
 1. Clone the repository by running the command in your terminal.
