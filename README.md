@@ -52,6 +52,7 @@ git clone https://github.com/pankaj-prog/UI-library.git
 - [Modal](#modal)
 - [Rating](#rating) 
 - [Toast](#toast)
+- [Slider](#slider)
 
 ---
 ### Typography
@@ -172,6 +173,8 @@ You will find the following types of **navigation** on https://adaptiveui.netlif
 
 > Simple Navigtion -> Simple navigation consist of a brand name, some links to different pages, few call to action and a search bar. You will need to include the classes as mentioned in the code snippet to use this component.
 
+>  Navigation with hamburger icon -> This navigation consist is similar to the desktop navigation with hamburger icon for menu on smaller screens. 
+
 ### Lists
 
 Lists are continuous, vertical indexes of text or images. You can use following type of lists.
@@ -209,3 +212,10 @@ You will find the following types of **toast** on https://adaptiveui.netlify.app
 > Warning toast
 
 > Success toast
+
+### Slider
+
+Input slider is used to step through values from a range of numbers.
+
+Link: https://adaptiveui.netlify.app/src/components/slider/slider.html
+
