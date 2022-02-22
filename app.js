@@ -55,8 +55,7 @@ function darkMode() {
 navElement.style.transition = "transform 0.5s ease";
 
 hamburgerBtn.addEventListener("click", () => {
-  navElement.style.display =
-    navElement.style.display === "flex" ? "none" : "flex";
+  navElement.classList.toggle("display-flex");
   navElement.style.transform = "translateX(0%)";
   bodyElement.style.overflowY =
     bodyElement.style.overflowY === "" ? "hidden" : "";
