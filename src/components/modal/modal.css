@@ -11,6 +11,7 @@
 }
 
 .modal {
+  color: var(--BLACK);
   border-radius: 8px;
   border: 1px solid var(--BLACK);
   background-color: var(--WHITE);

@@ -4,10 +4,14 @@
   width: 14rem;
   border: 1px solid var(--GRAY);
   position: relative;
+  background-color: var(--WHITE);
+  color: var(--BLACK);
 }
 
 .card-hz {
   border: 1px solid var(--GRAY);
+  background-color: var(--WHITE);
+  color: var(--BLACK);
   overflow: hidden;
   border-radius: 4px;
   display: flex;
@@ -17,6 +21,8 @@
 }
 
 .card-text {
+  background-color: var(--WHITE);
+  color: var(--BLACK);
   border: 1px solid var(--GRAY);
   border-radius: 4px;
   max-width: 24rem;

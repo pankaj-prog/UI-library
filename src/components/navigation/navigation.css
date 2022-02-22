@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  color: var(--BLACK);
   gap: 1rem;
   width: 100%;
   justify-content: space-between;
