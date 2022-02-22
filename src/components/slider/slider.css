@@ -10,7 +10,7 @@
 
 .slider {
   width: 98%;
-  cursor: pointer;
+  cursor: grab;
 }
 
 .slider:active {
