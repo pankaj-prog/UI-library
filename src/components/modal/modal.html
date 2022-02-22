@@ -22,12 +22,17 @@
           <a href="#">
             <i class="fab fa-twitter"></i>
           </a>
-          <button>
-            <i id="theme-toggle" class="fas fa-moon"></i>
-          </button>
         </div>
+
+        <button class="site-header-btn theme-toggle-btn">
+          <i id="theme-toggle" class="fas fa-moon"></i>
+        </button>
+
+        <button class="site-header-btn hamburger-btn">
+          <i id="btn-hamburger" class="fas fa-bars"></i>
+        </button>
       </header>
-      <nav class="site-nav">
+      <nav id="site-nav" class="site-nav">
         <ul class="hz-nav primary-nav">
           <li><a href="/src/components/usage/usage.html">Usage</a></li>
           <li>
@@ -58,7 +63,7 @@
             <a href="/src/components/input/input.html">Input</a>
           </li>
           <li class="site-nav-link more-links-wrapper">
-            More Components >
+            <span class="more-components-link"> More Components > </span>
             <ul class="more-links">
               <li>
                 <a href="/src/components/grid/grid.html">Grid</a>
