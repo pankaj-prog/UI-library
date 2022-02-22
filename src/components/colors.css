@@ -1,22 +1,24 @@
 :root {
+  --BLACK-OVERLAY: #00000080;
   --BLACK: #1f1f1f;
-  --BLACK-OVERLAY: rgba(0, 0, 0, 0.5);
-  --GRAY: rgb(134, 134, 134);
+  --GRAY: #868686;
   --WHITE: #ffffff;
   --OFFWHITE: #f5f5f5;
   --LIGHT-GRAY: #e5e5e5;
   --RED: #ba2026;
   --CTA-COLOR: #3e98f1;
   --RATING-COLOR: #ffe02e;
-  --ERROR: rgb(211, 13, 13);
-  --ERROR-BG: rgb(247, 229, 229);
+  --ERROR: #d30d0d;
+  --ERROR-BG: #f7e5e5;
   --WARNING: #636300;
   --WARNING-BG: #ffffd0;
-  --INFO: blue;
-  --INFO-BG: rgb(232, 232, 255);
-  --SUCCESS: rgb(0, 129, 0);
-  --SUCCESS-BG: rgb(220, 248, 220);
-  --STATUS-ACTIVE: rgb(11, 196, 11);
-  --STATUS-INACTIVE: red;
-  --STATUS-IDLE: rgb(110, 109, 109);
+  --INFO: #0000ff;
+  --INFO-BG: #e8e8ff;
+  --SUCCESS: #008100;
+  --SUCCESS-BG: #dcf8dc;
+  --STATUS-ACTIVE: #0bc40b;
+  --STATUS-INACTIVE: #ff0000;
+  --STATUS-IDLE: #6e6d6d;
+
+  /* rgb(23 23 23) */
 }
