@@ -1,0 +1,18 @@
+.slider-wrapper {
+  width: 12rem;
+}
+
+.slider-values {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider {
+  width: 98%;
+  cursor: pointer;
+}
+
+.slider:active {
+  cursor: grabbing;
+}
