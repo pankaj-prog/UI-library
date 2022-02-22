@@ -413,4 +413,8 @@ div.code-toolbar > .toolbar > .toolbar-item > span {
     background-color: none;
     box-shadow: none;
   }
+
+  .display-flex {
+    display: flex;
+  }
 }
