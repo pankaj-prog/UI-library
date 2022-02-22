@@ -85,15 +85,15 @@
         <p class="comonent-description">
           Website navigation allows users to flow from one page to another.
         </p>
-        <h2 class="component-type-name">1. Simple Navigation</h2>
+        <h2 class="component-type-name">1. Desktop Navigation</h2>
         <p class="component-description">
-          Simple navigation consist of a brand name, some links to different
+          Desktop navigation consist of a brand name, some links to different
           pages, few call to action and a search bar. You will need to include
           the classes as mentioned in the code snippet to use this component.
         </p>
         <section class="component-example-wrapper-secondary">
           <header class="header">
-            <a href="$" class="header-brand h3">E-Com</a>
+            <a href="#" class="header-brand h3">E-Com</a>
             <nav class="header-nav">
               <ul>
                 <li><a href="#">Men</a></li>
@@ -143,6 +143,70 @@
                 </button>
                 <button class="btn btn-solid-primary btn-rc">Sign-in</button>
               </div>
+            </header>
+          </script>
+        </section>
+
+        <h2 class="component-type-name">2. Navigation with hamburger icon</h2>
+        <p class="component-description">
+          This navigation consist is similar to the desktop navigation with
+          hamburger icon for menu on smaller screens.
+        </p>
+        <section class="component-example-wrapper">
+          <header class="header">
+            <a href="#" class="header-brand h3">E-Com</a>
+            <nav id="header-nav" class="header-nav hide-mobile">
+              <ul>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+              </ul>
+            </nav>
+            <div class="header-search-wrapper">
+              <label for="search"><i class="fas fa-search"></i></label>
+              <input type="text" id="search" />
+            </div>
+            <div id="header-ctas" class="header-ctas hide-mobile">
+              <button class="btn icon-btn">
+                <i class="far fa-heart"></i>
+              </button>
+              <button class="btn icon-btn">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+              <button class="btn btn-solid-primary btn-rc">Sign-in</button>
+            </div>
+            <button class="hamburger-icon-btn btn hide-desktop">
+              <i class="fas fa-bars"></i>
+            </button>
+          </header>
+        </section>
+        <section class="component-code-wrapper">
+          <script type="text/plain" class="line-numbers language-markup">
+            <header class="header">
+              <a href="#" class="header-brand h3">E-Com</a>
+              <nav id="header-nav" class="header-nav hide-mobile">
+                <ul>
+                  <li><a href="#">Men</a></li>
+                  <li><a href="#">Women</a></li>
+                  <li><a href="#">Kids</a></li>
+                </ul>
+              </nav>
+              <div class="header-search-wrapper">
+                <label for="search"><i class="fas fa-search"></i></label>
+                <input type="text" id="search" />
+              </div>
+              <div id="header-ctas" class="header-ctas hide-mobile">
+                <button class="btn icon-btn">
+                  <i class="far fa-heart"></i>
+                </button>
+                <button class="btn icon-btn">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+                <button class="btn btn-solid-primary btn-rc">Sign-in</button>
+              </div>
+              <button class="hamburger-icon-btn btn hide-desktop">
+                <i class="fas fa-bars"></i>
+              </button>
             </header>
           </script>
         </section>

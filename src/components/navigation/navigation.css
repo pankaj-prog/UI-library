@@ -60,3 +60,24 @@
   background-color: var(--LIGHT-GRAY);
   border-radius: 50%;
 }
+
+.hamburger-icon-btn i {
+  font-size: 1rem;
+}
+
+.hide-desktop {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .hide-mobile {
+    display: none;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+  .header-search-wrapper {
+    flex-grow: 1;
+  }
+}
