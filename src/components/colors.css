@@ -20,5 +20,10 @@
   --STATUS-INACTIVE: #ff0000;
   --STATUS-IDLE: #6e6d6d;
 
-  /* rgb(23 23 23) */
+  --COLOR-PRIMARY: #1f1f1f;
+  --COLOR-PRIMARY-V2: #2f2f2f;
+  --COLOR-PRIMARY-V3: #717171;
+  --COLOR-SECONDARY: #ffffff;
+  --COLOR-SECONDARY-V2: #f5f5f5;
+  --COLOR-SECONDARY-V3: #e5e5e5;
 }
